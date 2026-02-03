@@ -1,0 +1,56 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.app__clear-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.app__clear-button:hover {
+  background-color: #c82333;
+  transform: translateY(-1px);
+}
+
+.app__clear-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+
+  .app__container {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .header__title {
+    font-size: 1.5rem;
+  }
+}
