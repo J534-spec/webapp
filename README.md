@@ -118,7 +118,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/J534-spec/webapp.git
 cd ai-chat-app
 ```
 
