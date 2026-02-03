@@ -112,7 +112,7 @@ src/
 
 - Node.js (v14 or higher)
 - npm or yarn
-- Groq API key
+- Open API key
 
 ### Installation
 
@@ -132,7 +132,7 @@ npm install
 cp .env.example .env
 ```
 
-4. Add your Groq API key to `.env`:
+4. Add your API key to `.env`:
 ```env
 REACT_APP_GROQ_API_KEY=your_api_key_here
 ```
